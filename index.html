@@ -1,1 +1,131 @@
-Hello world!
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta base="_blank">
+  <title>rosalind.info introduction</title>
+  <link rel="stylesheet" type="text/css" href="../css/main.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="../favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+
+  <style type="text/css">
+    li {
+      display: list-item;
+      cursor: default;
+    }
+    .green {
+      color: green;
+    }
+    .red {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <p>Welcome to the workshop</p>
+  <h1>rosalind.info: <br>Introduction to bioinformatics for programmers</h1>
+
+  <p>While people are joining, please:</p>
+  <section>
+    <ol>
+      <li>
+        find a place next to someone from the <b>same town</b>
+        (use yellow stickers to write down your town)
+      </li>
+      <li>
+        register on
+        <a href="http://rosalind.info/">rosalind.info</a>
+      </li>
+      <li>
+        start working on the 1st problem:
+        <a href="http://rosalind.info/problems/dna/">Counting DNA Nucleotides</a>,<br>
+        you can work in pairs (and share code later),
+        no need to "Download dataset" yet
+      </li>
+      <li>
+        if your have working code, use the <i class="green">green sticker</i> and look around for people who need help<br>
+        if in trouble, try to look like you might need help and use the <i class="red">red sticker</i>
+      </li>
+    </ol>
+  </section>
+
+  <p>Next, let's take a look around the site:</p>
+  <section>
+    <ul>
+      <li>
+        look around the 5 locations, FAQ, tree view
+      </li>
+      <li>
+        reveal a problem's background information
+      </li>
+      <li>
+        how to submit your solution
+        (it can take a while to download dataset, no need to press the button multiple times),
+        let's try it (if wifi allows)
+      </li>
+      <li>
+        random look at more complicated problems
+      </li>
+      <li>
+        <b>disclaimer</b>: I'm NOT a professional bioinformatitian myself,
+        but if you have any questions or want to join a university course, you can contact
+        <a href="mailto:anastazie.d@gmail.com">Anastassiya Zidkova &lt;anastazie.d@gmail.com&gt;</a>
+      </li>
+    </ul>
+  </section>
+
+  <p>You can challenge yourself with more requirements:</p>
+  <section>
+    <ul>
+      <li>TDD/BDD - write a test/spec before implementation</li>
+      <li>performance - think about big O vs. other constrains like I/O</li>
+      <li>API or CLI</li>
+      <li>usage documentation, readability of code</li>
+      <li>ask for code review (plz do not publish publicly, but use their site or delete afterwards)</li>
+    </ul>
+  </section>
+
+  <p>There are multiple solutions for every problem:</p>
+  <section>
+    <ul>
+      <li>
+        explanation / solutions / questions to compare (after you submit your own)
+      </li>
+      <li>
+        example: <a href="rosalind.ipynb">rosalind.ipynb</a>
+      </li>
+    </ul>
+  </section>
+
+  <p>Next steps:</p>
+  <section>
+    <ul>
+      <li>
+        ideas for this workshop - all together (e.g. reading FASTA file format) or smaller groups
+      </li>
+      <li>
+        if you are interested in follow-up meetups with local people, please don't forget to
+        exchange contacts and schedule a regular get together
+      </li>
+      <li>
+        or you can write to (gender neutral)
+        <a href="http://pyladies.cz/">pyladies.cz</a> &gt; <i>Napiš nám</i> or
+        any of the communication channel on <a href="http://python.cz/">python.cz</a>
+        to get more info how to join existing groups or start a new one
+      </li>
+    </ul>
+  </section>
+
+  <script>
+    window.onload = function(){
+      document.documentElement.className = 'fadein';
+    };
+    window.onbeforeunload = function(){
+      document.documentElement.className = '';
+    };
+  </script>
+  <script src="../js/google_analytics.js"></script>
+</body>
+</html>
